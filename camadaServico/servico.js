@@ -9,7 +9,7 @@ function buscaPorId(id) {
 }
 
 const buscaPorAno = (anoBusca) => {
-    return historicoInflacao.filter(historico => historico === anoBusca);
+    return historicoInflacao.filter(historico => historico.ano === anoBusca);
 };
 
 function validaId(id) {
